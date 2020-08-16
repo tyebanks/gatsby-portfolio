@@ -3,7 +3,7 @@ import List from '../components/List.js';
 
 export default function Education() {
   return (
-    <section id="education" className="education-section">
+    <section id="education" className="education-section bg-gradient-danger ">
       <div className="container">
         <div className="row">
           <div className="col-md-10 col-lg-8 mx-auto text-center">
