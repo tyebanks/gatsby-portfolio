@@ -14,7 +14,7 @@
   .navbar-brand {
     color: fade-out($white, .15);
     &:hover {
-      color: $yellow;
+      color: $lilac;
     }
     font-weight: 700;
     padding: .9rem 0;
@@ -23,7 +23,7 @@
     .nav-link {
       color: $white; 
       &:hover {
-        color: $yellow;
+        color: $lilac;
         outline: none;
         background-color: transparent;
       }
@@ -60,7 +60,7 @@
       .navbar-brand {
         color: fade-out($white, .15);
         &:hover {
-          color: $yellow; //primary this is for nav bar words
+          color: $litegreen; //primary this is for nav bar words
         }   
       }
       .nav-link {
@@ -68,7 +68,7 @@
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent;
         &:hover {
-          color: $yellow; 
+          color: $litegreen; 
         }   
       }
     }

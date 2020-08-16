@@ -5,7 +5,7 @@ import Scroll from '../components/Scroll';
 
 import Header from '../components/Header';
 import Contact from '../components/Contact';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 import logo from '../assets/images/logo2.png';
 import product1 from '../assets/images/image-1.jpg';
@@ -163,7 +163,7 @@ const IndexPage = () => (
        
     </section> 
     <Contact />
-    <Footer />
+    {/* <Footer/> */}
   </Layout>
 );
 

@@ -1,20 +1,20 @@
 import React from 'react';
 import SocialLinks from './SocialLinks';
 
-
-
-export default function Email() {
+export default function Contact() {
   return (
     <section id="contact" className="contact-section">
       <div className="container">
         <div className="row">
           <div className="col-md-10 col-lg-8 mx-auto text-center">
-            <h2 className="text-black-55 mb-5">GET IN TOUCH</h2>
-            <p className="text-black mb-5">If you have any queries about our business or products please contact us. We’d love to hear from you!</p>
-            <SocialLinks/>
+              <h3 className="text-third mb-5">Give me a shout.</h3>
+              <p><a href="https://twitter.com/ty_ebanks" className="text-black mb-5">ebankst07@gmail.com</a></p>
+              <p className="text-black mb-5"><a href="https://www.linkedin.com/in/ty-ebanks/">https://www.linkedin.com/in/ty-ebanks/</a></p>
+              <p className="text-black mb-5"><a href="https://twitter.com/ty_ebanks">https://twitter.com/ty_ebanks</a></p>
           </div>
         </div>
       </div>
+      <SocialLinks/>
     </section>
   );
 

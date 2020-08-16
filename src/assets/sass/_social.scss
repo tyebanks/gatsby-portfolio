@@ -8,11 +8,12 @@
         width: 50px;
         height: 50px;
         text-align: center;
-        line-height: 50px;
+        line-height: 51px;
         border-radius: 50%;
-        border: 1.15px solid #343434;
+        // border: 1.15px solid #343434;
+        background-color: #B19EFF;
         font-size: 25px;
-        color: #343434;
+        color: #4A494A;
         transition: .6s;
       }
       
@@ -35,8 +36,8 @@
       }
       
       a:hover {
-        background: #343434;
-        color: #fff;
+        background: #fff;
+        color: #000;
         text-shadow: 0 0 3px #fff;
       }
     

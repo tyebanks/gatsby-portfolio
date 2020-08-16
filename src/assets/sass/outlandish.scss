@@ -7,19 +7,26 @@
 @import 'contact.scss';
 
 @import './fontawesome/css/all.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900');
 
 
 
 h1 {
-  font-family: 'Roboto';
+  font-family: 'Segoe UI, san-serif';
   font-size: 80px;
 }
 h2 {
-  font-family: 'Source Sans Pro';
+
   font-weight: 700;
   font-size: 50px;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 38px;
 }
 
 p {
@@ -28,12 +35,11 @@ p {
 }
 
 body{
-  font-family: 'Open Sans';
+  font-family: 'Montserrat, san-serif';
 }
 
 a {
-     color: $yellow;
-     
+     color: $litegreen;
      &:hover {
      text-decoration: none;
      color: $white;
@@ -52,6 +58,12 @@ a {
 
 .text-primary {
   color: $teal !important;
+}
+.text-secondary{
+color: $litegreen !important;
+}
+.text-third{
+  color: $lilac !important;
 }
 
 footer {
