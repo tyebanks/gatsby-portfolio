@@ -1,0 +1,86 @@
+.products-section {
+  background-image: url('../images/bg-07.png');
+  padding: 0;
+  margin: 0;
+  height: auto;
+  font-size: 1.75em;
+  font-family: Source Sans Pro, serif;
+
+  @media (min-width: 300px){
+    padding:0;
+    margin:0;
+    
+    .container{
+      display: flex;
+      width: 100vw;
+      padding-top: 20%;
+      padding-bottom: 20%;
+    }
+    .row{
+      width:100%;
+      padding: 0;
+      margin: 0;
+      
+    }
+    .col{
+      width: 100%;
+      display: flex;
+      padding: 2%;
+      padding-bottom: 12%;
+    }
+    .card{
+      width: 85vw;
+    }
+    .card-text {
+      font-size: 85%;
+    }
+    .card-title{
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 93%;
+    }
+  }
+
+  @media screen and (max-width: 991px) and (min-width: 768px){
+    .container{
+      max-width: 400px;
+      width: 100vw;
+      font-size: 75%;
+      padding: 8% 0 8% 0;
+    }    
+    .col{
+      display: flex;
+      justify-content: center;
+    }
+     .card{
+      width: 50vw;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .container{
+      // border: 0.5rem solid $teal;
+      padding-top: 6%;
+      padding-bottom: 6%;
+      font-size: 90%;  
+    }
+    .row{
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0;
+      padding: 0;
+    }
+    .col {
+      padding-bottom: 6%;
+    }
+    .card{
+      max-width: 319px;
+    } 
+  }
+
+}
+  
+
+      
+  
+

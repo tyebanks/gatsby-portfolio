@@ -1,0 +1,60 @@
+@import './bootstrap/bootstrap.min.css';
+@import 'variables.scss';
+@import 'navbar.scss';
+@import 'masthead.scss';
+@import 'about.scss';
+@import 'products.scss';
+@import 'contact.scss';
+
+@import './fontawesome/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900');
+
+
+
+h1 {
+  font-family: 'Roboto';
+  font-size: 80px;
+}
+h2 {
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-size: 50px;
+}
+
+p {
+  font-size: 1.35em;
+  text-align: 'center';
+}
+
+body{
+  font-family: 'Open Sans';
+}
+
+a {
+     color: $yellow;
+     
+     &:hover {
+     text-decoration: none;
+     color: $white;
+    }
+}
+
+.bg-black {
+  background-color: $gray-300 !important;
+}
+.bg-gray-200{
+  background-color: $gray-200 !important;
+}
+.bg-primary {
+  background-color: $teal !important;
+}
+
+.text-primary {
+  color: $teal !important;
+}
+
+footer {
+   padding: 1.75rem 0;
+   font-size: 90%;
+}
