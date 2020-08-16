@@ -2,10 +2,11 @@
  
   position: relative;
   width: 100%;
-  height: auto;
-  // min-height: 35rem;
+  // height: auto;
+  height: 100vh;
   padding: 1rem 0; //15rem
-  background: url('../images/art.jpg') no-repeat center center fixed;
+  background: url(../images/triangles.png)  center center fixed, linear-gradient(0deg, #6723C6 0%, rgba(0, 239, 181, 0.87) 100%);
+  // background: linear-gradient(0deg, #6723C6 0%, rgba(0, 239, 181, 0.87) 100%), url(../images/triangles.png);
   background-attachment: scroll;
   
 

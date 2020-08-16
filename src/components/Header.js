@@ -74,7 +74,7 @@ export default class Header extends Component {
                   element="skills"
                 >
                   <a className="nav-link" href="#skills">
-                    Technical Skills
+                    My Skills
                   </a>
                 </Scroll>
               </li>

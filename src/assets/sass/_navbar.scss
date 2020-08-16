@@ -56,7 +56,7 @@
     }
 
     &.navbar-shrink {
-      background-color: fade-out($black, .15); //Find Navbar color $white
+      background-color: fade-in(#6723C6, .15); //Find Navbar color $white
       .navbar-brand {
         color: fade-out($white, .15);
         &:hover {

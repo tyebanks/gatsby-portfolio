@@ -23,7 +23,8 @@ const IndexPage = () => (
           <div className="mx-auto text-center">
              <img src={logo} className="img-fluid" alt="" />
                     {/* <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1> */}       
-             <p className="mt-5 mb-5">Convenient, Crafty and Courteous service</p>
+             <h1>OH, HELLO THERE.</h1>
+             <p className="mt-5 mb-5">I’m Ty! I love designing websites. I currently spend my days honing my skills as a Junior Web Developer, while listening to Coldplay on Spotify.</p>
              <Scroll type="id" element="about">
                  
                  <a href="#about"><i className="fas fa-angle-double-down text floating text-white"></i></a>
