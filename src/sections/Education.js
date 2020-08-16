@@ -1,21 +1,29 @@
 import React from 'react';
-import '../assets/sass/_education.scss';
-
+import List from '../components/List.js';
 
 export default function Education() {
   return (
+    <section id="education" className="education-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-10 col-lg-8 mx-auto text-center">
+              <h2 className=" mb-5">EDUCATION</h2>
+              <div>
+              BSc Business Computing (Web Design)
+              University of Northampton
+              Northampton, U.K.
+              NN1 5PH
 
-<section id="education" className="eduction-section text-left">
-<div className="container">
-  <div className="row">
-    <div className="col-lg-8 mx-auto">
-
-       <p className="text-white">Want to place an order? Send us a message via Facebook:
-       <a className="text-yellow" href="https://www.facebook.com/outlandish.cayman/" > @outlandish.cayman</a>             
-      </p>
-      
-    </div>
-  </div>        
-</div>
-</section>)
+              AAS degree in Computer Science
+              University College Cayman Islands
+              George Town, K.Y.
+              KY1-1107 
+              </div>
+ 
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  );  
 }
