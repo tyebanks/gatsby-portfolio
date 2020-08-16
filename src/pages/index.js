@@ -1,14 +1,16 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Scroll from '../components/Scroll';
-
+// import Scroll from '../components/Scroll';
+import Test from '../components/Test';
 import Header from '../components/Header';
-import Contact from '../sections/Contact';
+import Skills from '../sections/Skills';
 import Education from '../sections/Education';
+import Contact from '../sections/Contact';
+
 // import Footer from '../components/Footer';
 
-import logo from '../assets/images/logo2.png';
+import my_img from '../assets/images/my-img.jpg';
 import p1 from '../assets/images/project1.jpg';
 import p2 from '../assets/images/project2.jpg';
 import p3 from '../assets/images/project3.jpg';
@@ -17,54 +19,27 @@ import p3 from '../assets/images/project3.jpg';
 
 const IndexPage = () => (
   <Layout>
+  
     <Header />
     <header className="masthead">
       <div className="container d-flex h-100 align-items-center mb-0">
           <div className="mx-auto text-center">
-             <img src={logo} className="img-fluid" alt="" />
+             <figure className="on"> <img src={my_img} className="img-fluid img rounded-circle" alt="Ty Ebanks" /></figure>
+            
                     {/* <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1> */}       
              <h1>OH, HELLO THERE.</h1>
-             <p className="mt-5 mb-5">I’m Ty! I love designing websites. I currently spend my days honing my skills as a Junior Web Developer, while listening to Coldplay on Spotify.</p>
-             <Scroll type="id" element="about">
+             <p>I’m Ty! I love designing websites. I currently spend my days honing my skills as a Junior Web Developer, while listening to Coldplay on Spotify.</p>
+             {/* <Scroll type="id" element="skills"> */}
                  
-                 <a href="#about"><i className="fas fa-angle-double-down text floating text-white"></i></a>
+             <button className="btn text-white" type="submit" onclick="window.open('https://tyebanks.github.io/cv.pdf')">Download CV</button>
+      
                  
-            </Scroll>          
+            {/* </Scroll>           */}
           </div>
       </div>
     </header>   
+     <Skills/>
    
-    <section id="skills" className="skills-section text-center">
-      <div className="container">
-      <h2 className=" mb-5">TECHNICAL SKILLS</h2>
-        <div className="row">
-          <div className="col-lg-8 mx-auto">
-         
-             <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>PHP</li>
-              <li>Gatsby</li>
-              <li>WordPress</li>
-              <li>Joomla</li>
-              <li>Java/Eclipse</li>
-
-
-              <li>Atom</li>
-              <li>VS Code</li>
-              <li>GitHub</li>
-              <li>Adobe XD</li>
-              <li>Figma</li>
-              <li>inVision</li>
-              <li>Discord</li>
-              <li>Slack</li>
-            
-           
-            
-          </div>
-        </div>        
-      </div>
-    </section>
    
     <section id="projects" className="projects-section">
      
@@ -112,6 +87,7 @@ const IndexPage = () => (
     </section> 
     <Education/>
     <Contact />
+    {/* <Test/> */}
     {/* <Footer/> */}
   </Layout>
 );

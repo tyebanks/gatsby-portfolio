@@ -1,7 +1,7 @@
 #mainNav {
   min-height: 56px;
   color: #fff;
-  background-color: fade-out($black, .15);
+  background-color: fade-out($purple, .15);
   .navbar-toggler {
       font-size: 90%;
       padding: 0.75rem;
@@ -25,7 +25,7 @@
       &:hover {
         color: $lilac;
         outline: none;
-        background-color: transparent;
+        background-color: transparent; // was transparent
       }
       &:focus {
         outline: none;
@@ -37,7 +37,7 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: #6723C6;
     transition: background-color 0.3s ease-in-out;
     .navbar-brand {
       padding: .5rem 0;
