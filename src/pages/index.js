@@ -34,10 +34,11 @@ const IndexPage = () => (
       </div>
     </header>   
    
-    <section id="about" className="about-section text-center">
+    <section id="skills" className="skills-section text-center">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
+          <h2 className=" mb-5">TECHNICAL SKILLS</h2>
             <h2 className="text-white mb-4">We love to Create</h2>
             <p className="text-white">We are the home of Cayman's best Handmade Jewelry, Chainmaille, Charms,
              Sculptures, Arts, Crafts, DIYs and more! We are always trying something new and fun and are happy
@@ -54,7 +55,7 @@ const IndexPage = () => (
     <section id="products" className="products-section">
      
       <div className="container">  
-
+      <h2 className=" mb-5">MY PROJECTS</h2>
         <div className="row">
           <div className="col">
             <div className="card h-100 shadow bg-white rounded">
@@ -76,20 +77,7 @@ const IndexPage = () => (
                 <div className="card-text">Price: CI$25</div>
               </div>
             </div>
-          </div>
-        
-
-        
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product3} alt="" />
-              <div className="card-body">
-                <div className="card-title">Swarovski Crystals</div>
-                <div className="card-text">Price: CI$25</div>
-              </div>
-            </div>
-          </div>
-      
+          </div>     
 
         
         
