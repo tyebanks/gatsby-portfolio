@@ -1,7 +1,7 @@
 # AS2: PORTFOLIO SITE
 This is my portfolio website as part of my second Web Design assignment. 
 
-Live Preview [here](https://outlandishcayman.netlify.app/)
+Live Preview [here](https://tyebanks-portfolio.netlify.app/)
 
 ## Site Info
 
