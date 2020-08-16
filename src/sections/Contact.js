@@ -1,6 +1,6 @@
 import React from 'react';
-import SocialLinks from './SocialLinks';
-import List from './List.js';
+import SocialLinks from '../components/SocialLinks';
+import List from '../components/List.js';
 
 export default function Contact() {
   return (
@@ -17,7 +17,5 @@ export default function Contact() {
       </div>
       <SocialLinks/>
     </section>
-  );
-
-  
+  );  
 }

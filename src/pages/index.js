@@ -4,7 +4,8 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
 import Header from '../components/Header';
-import Contact from '../components/Contact';
+import Contact from '../sections/Contact';
+import Education from '../sections/Education';
 // import Footer from '../components/Footer';
 
 import logo from '../assets/images/logo2.png';
@@ -12,11 +13,7 @@ import product1 from '../assets/images/image-1.jpg';
 import product2 from '../assets/images/image-2.jpg';
 import product3 from '../assets/images/image-3.jpg';
 import product4 from '../assets/images/image-4.jpg';
-import product5 from '../assets/images/image-5.jpg';
-import product6 from '../assets/images/image-6.jpg';
-import product7 from '../assets/images/image-7.jpg';
-import product8 from '../assets/images/image-8.jpg';
-import product9 from '../assets/images/image-9.jpg';
+
 
 
 const IndexPage = () => (
@@ -105,63 +102,13 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product5} alt="" />
-              <div className="card-body">
-                <div className="card-title">Wire Bracelets</div>
-                <div className="card-text">Price: CI$25</div>
-              </div>
-            </div>
-          </div> 
-
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product6} alt=""/>
-              <div className="card-body">
-                <div className="card-title">Chainmaille Bracelet</div>
-                <div className="card-text">Price: CI$25</div>
-              </div>
-            </div>
-          </div>
-
-        
-
-        
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product7} alt=""/>
-              <div className="card-body">
-                <div className="card-title">Angry Toast Plush</div>
-                <div className="card-text">Price: CI$25</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product8} alt="" />
-              <div className="card-body">
-                <div className="card-title">Cayman Parrot Plush</div>
-                <div className="card-text">Price: CI$25</div>
-              </div>
-            </div>
-          </div> 
-
-          <div className="col">
-            <div className="card h-100 shadow bg-white rounded">
-              <img className="card-img" src={product9} alt=""/>
-              <div className="card-body">
-                <div className="card-title">Kawaii Octopus Plush</div>
-                <div className="card-text">Price: CI$25</div>
-              </div>
-            </div>
-          </div>
+      
+         
         </div>
       </div>  
        
     </section> 
+    <Education/>
     <Contact />
     {/* <Footer/> */}
   </Layout>
