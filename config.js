@@ -19,22 +19,24 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://www.facebook.com/outlandish.cayman',
-    },
-    {
-      icon: 'fa-instagram',
-      name: 'Instagram',
-      url: 'https://www.instagram.com/outlandishky/?hl=en',
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/ty-ebanks/',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/OutlandishCayma',
+      url: 'https://twitter.com/ty_ebanks',
+    },
+    {
+      icon: 'fa-github',
+      name: 'Github',
+      url: 'https://github.com/tyebanks',
     },
   
   ],
   email: 'ebankst07.com',
   address: 'Northampton, U.K.',
 };
+
+            
