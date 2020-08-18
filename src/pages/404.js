@@ -1,12 +1,12 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Header from '../components/Header';
+import Navigation from '../components/Navigation';
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
   <Layout>
-    <Header />
+    <Navigation />
     <header className="masthead">
       <div className="container h-100">
         <div className="row h-100 align-items-center justify-content-center text-center">

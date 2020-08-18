@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Scroll from '../components/Scroll';
+// import Scroll from '../components/Scroll';
 
 import config from '../../config';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Navigation from '../components/Navigation';
 import ContactUs from '../components/ContactUs';
 import Projects from '../components/Projects';
 import Project1 from '../assets/images/1.jpg';
@@ -15,7 +15,7 @@ import Project3 from '../assets/images/3.jpg';
 
 const IndexPage = () => (
   <Layout>
-    <Header />
+    <Navigation />
 
     <header id="page-top" className="masthead">
       <div className="container h-100">
