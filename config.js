@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-creative/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'OH, HELLO THERE.',
+  subHeading: 'I’m Tynisha! I love designing websites. I currently spend my days honing my skills as a Junior Web Developer, while listening to Coldplay on Spotify.  ',
 
   // social
   socialLinks: [
