@@ -61,7 +61,7 @@ class Gallery extends Component {
         <div key={obj.src} className="col-lg-4 col-sm-6">
           <a
             onClick={e => this.openLightbox(i, e)}
-            className="portfolio-box"
+            className="project-box"
             href={obj.src}
           >
             <img
@@ -70,7 +70,7 @@ class Gallery extends Component {
               alt={obj.description}
               title={obj.title}
             />
-            <div className="portfolio-box-caption">
+            <div className="project-box-caption">
               <div className="project-category text-white-50">{obj.title}</div>
               <div className="project-name">{obj.desc}</div>
             </div>

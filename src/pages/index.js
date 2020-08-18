@@ -51,7 +51,7 @@ const IndexPage = () => (
   <Layout>
     <Header />
 
-    <header className="masthead">
+    <header id="page-top" className="masthead">
       <div className="container h-100">
         <div className="row h-100 align-items-center justify-content-center text-center">
           <div className="col-lg-10 align-self-end">
@@ -77,7 +77,7 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section className="page-section" id="services">
+    <section className="page-section" id="skills">
       <div className="container">
         <h2 className="text-center mt-0">Technical Skills</h2>
         <hr className="divider my-4" />
@@ -150,7 +150,7 @@ const IndexPage = () => (
               </a>
             </Scroll>
         
-            <section id="portfolio">
+            <section id="projects">
       <Gallery images={img_set} />
     </section>
         
@@ -158,7 +158,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="page-section bg-light" id="about">
+    <section className="page-section bg-light" id="education">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 text-center">
@@ -175,10 +175,10 @@ const IndexPage = () => (
             George Town, K.Y.
             KY1-1107 
             </p>
-            <Scroll type="id" element="services">
+            <Scroll type="id" element="skills">
               <a
                 className="btn btn-light btn-xl js-scroll-trigger"
-                href="#services"
+                href="#skills"
               >
                 Get Started!
               </a>
