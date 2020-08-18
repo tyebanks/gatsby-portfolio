@@ -1,6 +1,7 @@
 // Styling for the portfolio section
 #projects {
   border: 1px solid $gray-600;
+
   #project-imgs{ 
     max-width: 320px;
   }
@@ -43,7 +44,10 @@
     #project-imgs{ 
       max-width: 280px;
     }
-    
+    .card-container{
+        border: 2px solid salmon;
+        padding: 0 8% 0
+    }
     
     // .heading{
     //    background-color: rgba(160, 76, 7, 0.795) ;
