@@ -8,9 +8,9 @@ import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import ContactUs from '../components/ContactUs';
 import Projects from '../components/Projects';
-import Project1 from '../assets/images/1.jpg';
-import Project2 from '../assets/images/2.jpg';
-import Project3 from '../assets/images/3.jpg';
+import Project1 from '../assets/images/project1.jpg';
+import Project2 from '../assets/images/project2.jpg';
+import Project3 from '../assets/images/project3.jpg';
 
 
 const IndexPage = () => (
@@ -103,14 +103,15 @@ const IndexPage = () => (
     </section>
 
      {/* PROJECTS SECTION  */}
-    <section className="page-section bg-light">
-      <div className="container text-center">
-        <h2 className="mb-4">My Projects</h2> 
-            <section id="projects">
-                <Projects title="Web Design" src={Project1} description="Outlandish Cayman"/>
-                <Projects title="Web Dev" src={Project2} description="Hero Game"/>
-                <Projects title="Web Dev" src={Project3} description="News Site"/>
-            </section>      
+    <section id="projects" className="page-section bg-light">
+      <div className="container">
+      <div className="heading"><h2 className="mb-4 text-center">My Projects</h2></div>
+            <div className="card-container">
+           
+                <Projects title="Web Design" subtitle1="GatsbyJS" src={Project1} description="Outlandish Cayman"/>
+                <Projects title="Web Dev" subtitle1="JavaScript" src={Project2} description="Hero Game"/>
+                <Projects title="Web Dev" subtitle1="HTML+CSS" src={Project3} description="News Site"/>
+            </div>      
       </div>
     </section>
 
