@@ -85,9 +85,8 @@ const IndexPage = () => (
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-              <h3 className="h4 mb-2">Sturdy Themes</h3>
-              <p className="text-muted mb-0">
-                Our themes are updated regularly to keep them bug free!
+              <h3 className="h4 mb-2">Web Programming & Other tools</h3>
+              <p className="text-muted mb-0">...
               </p>
             </div>
           </div>
@@ -125,9 +124,9 @@ const IndexPage = () => (
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-              <h3 className="h4 mb-2">Made with Love</h3>
+              <h3 className="h4 mb-2">....</h3>
               <p className="text-muted mb-0">
-                Is it really open source if it's not made with love?
+               ...
               </p>
             </div>
           </div>
@@ -141,7 +140,7 @@ const IndexPage = () => (
     <section className="page-section bg-dark text-white">
       <div className="container text-center">
         <h2 className="mb-4">My Projects!</h2>
-        <Scroll type="id" element="about">
+        <Scroll type="id" element="skills">
               <a
                 className="btn btn-primary btn-xl js-scroll-trigger"
                 href="#about"
