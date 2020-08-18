@@ -84,15 +84,15 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
-              <i className="fas fa-4x fa-gem text-primary mb-4"></i>
+              {/* <i className="fas fa-4x fa-gem text-primary mb-4"></i> */}
               <h3 className="h4 mb-2">Web Programming & Other tools</h3>
-              <p className="text-muted mb-0">...
+              <p className="text-muted mb-0">
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
-              <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+              {/* <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i> */}
               <p className="text-muted mb-0">HTML5 </p>
               <p className="text-muted mb-0">CSS3</p>
               <p className="text-muted mb-0">JavaScript</p>
@@ -108,7 +108,7 @@ const IndexPage = () => (
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
-              <i className="fas fa-4x fa-globe text-primary mb-4"></i>
+              {/* <i className="fas fa-4x fa-globe text-primary mb-4"></i> */}
               <p className="text-muted mb-0">Adobe Illustrator </p>
               <p className="text-muted mb-0">Adobe Photoshop</p>
               <p className="text-muted mb-0">Figma</p>
@@ -123,10 +123,9 @@ const IndexPage = () => (
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
-              <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-              <h3 className="h4 mb-2">....</h3>
+              <i className=" mb-4"></i>
+              <h3 className="h4 mb-2"></h3>
               <p className="text-muted mb-0">
-               ...
               </p>
             </div>
           </div>
