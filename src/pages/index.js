@@ -164,11 +164,11 @@ const IndexPage = () => (
             <h2 className="text-black mt-0">Education</h2>
             <hr className="divider light my-4" />
             <p className="text-black-50 mb-4">
-            BSc Business Computing (Web Design)
-            University of Northampton
-            Northampton, U.K.
-            NN1 5PH
-            </p>
+            BSc Business Computing (Web Design)</p>
+            <li>University of Northampton</li>
+            <li>Northampton, U.K.</li>
+            <li>NN1 5PH</li>
+            
             <p className="text-black-50 mb-4">AAS degree in Computer Science
             University College Cayman Islands
             George Town, K.Y.

@@ -13,7 +13,7 @@ export default function Footer() {
               const { icon, url } = social;
               return (
                 <a key={url} href={url} className={`mx-2`}>
-                  <i className={`fab fa-3x mb-3 ${icon}`}></i>
+                  <i className={`fab fa-3x mb-3 ${icon} icons`}></i>
                 </a>
               );
             })}
