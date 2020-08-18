@@ -8,17 +8,10 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ContactUs from '../components/ContactUs';
 import Projects from '../components/Projects';
-import Project1 from '../assets/images/portfolio/fullsize/2.jpg';
+import Project1 from '../assets/images/1.jpg';
+import Project2 from '../assets/images/2.jpg';
+import Project3 from '../assets/images/3.jpg';
 
-
-const img_set = [
-  {
-    
-    src: require('../assets/images/portfolio/fullsize/2.jpg'),
-    src: require('../assets/images/portfolio/fullsize/3.jpg'),
-  }];
-  
-  
 
 const IndexPage = () => (
   <Layout>
@@ -38,10 +31,10 @@ const IndexPage = () => (
               {config.subHeading}
             </p>
             <a
-                className="btn btn-light btn-xl"
+                className="btn btn-dark btn-xl"
                 href="https://tyebanks.github.io/cv.pdf"
                                                       >
-          Download Now!
+          Download CV
         </a>
 
 
@@ -110,13 +103,13 @@ const IndexPage = () => (
     </section>
 
      {/* PROJECTS SECTION  */}
-    <section className="page-section bg-dark text-white">
+    <section className="page-section bg-light">
       <div className="container text-center">
         <h2 className="mb-4">My Projects</h2> 
             <section id="projects">
                 <Projects title="Web Design" src={Project1} description="Outlandish Cayman"/>
-                <Projects title="Web Dev" src={Project1} description="Hero Game"/>
-                <Projects title="Web Dev" src={Project1} description="News Site"/>
+                <Projects title="Web Dev" src={Project2} description="Hero Game"/>
+                <Projects title="Web Dev" src={Project3} description="News Site"/>
             </section>      
       </div>
     </section>
