@@ -4,10 +4,8 @@ import '../assets/sass/_social.scss';
 
 export default function SocialLinks() {
   return (
-     <section className="social-section">
-     {/* //bg-grey */}
-      {/* <div className="container"> */}
-         <div className="social d-flex justify-content-center">
+     <section className="social">
+         <div className="socialicons">
           {config.socialLinks.map(social => {
             const { icon, url } = social;
             return (
@@ -17,7 +15,6 @@ export default function SocialLinks() {
             );
           })}
         </div>
-      {/* </div> */}
     </section>
   );
 }
