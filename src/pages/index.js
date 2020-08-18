@@ -155,7 +155,7 @@ const IndexPage = () => (
         <h2 className="mb-4">Free Download Gatsby Starter!</h2>
         <a
           className="btn btn-light btn-xl"
-          href="https://github.com/anubhavsrivastava/gatsby-starter-creative"
+          href="https://tyebanks.github.io/cv.pdf"
         >
           Download Now!
         </a>

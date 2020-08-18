@@ -10,11 +10,14 @@ html {
   color: fade-out($white, .25);
 }
 #contact{
+  height: 65vh;
   background-color: #4A494A;
-  border: 2px solid yellowgreen;
   text-align: left;
   color: #fff;
- // 
+}
+#contactinfo>h3{
+  color: #C0A4FE;
+  font-size: 3rem;
 }
 p{
   color: #00EFB5;

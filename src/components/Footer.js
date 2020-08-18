@@ -3,7 +3,7 @@ import config from '../../config';
 
 export default function Footer() {
   return (
-    <footer className="pb-5">
+    <footer className="pb-5 bg-dark">
       <div className="container">
         <div className="small text-center text-muted">
        
