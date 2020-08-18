@@ -38,17 +38,17 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter creative', // <title>
+  siteTitle: 'Portfolio', // <title>
   ...
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Ty Ebanks',
+  subHeading: 'Junior Frontend Web Developer.',
 
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/tyebanks',
     }
     ...
   ],

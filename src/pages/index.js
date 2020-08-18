@@ -81,11 +81,14 @@ const IndexPage = () => (
       <div className="container">
         <h2 className="text-center mt-0">Technical Skills</h2>
         <hr className="divider my-4" />
+        <h3 className="h4 mb-2 text-center">Web Programming & Other tools</h3>
         <div className="row">
+        
           <div className="col-lg-3 col-md-6 text-center">
+          
             <div className="mt-5">
               {/* <i className="fas fa-4x fa-gem text-primary mb-4"></i> */}
-              <h3 className="h4 mb-2">Web Programming & Other tools</h3>
+              {/* <h3 className="h4 mb-2">Web Programming & Other tools</h3> */}
               <p className="text-muted mb-0">
               </p>
             </div>
@@ -164,23 +167,22 @@ const IndexPage = () => (
             <hr className="divider light my-4" />
             <p className="text-black-50 mb-4">
             BSc Business Computing (Web Design)</p>
-            <li>University of Northampton</li>
-            <li>Northampton, U.K.</li>
-            <li>NN1 5PH</li>
+            <p className="text-black-50 mb-4">University of Northampton</p>
+            <p className="text-black-50 mb-4">Northampton, U.K.</p>
+            <p className="text-black-50 mb-4">NN1 5PH</p>
             
-            <p className="text-black-50 mb-4">AAS degree in Computer Science
-            University College Cayman Islands
-            George Town, K.Y.
+            <p className="text-black-50 mb-4">Associate degree in Computer Science<br></br>
+            University College Cayman Islands<br></br>George Town, C.I.
             KY1-1107 
             </p>
-            <Scroll type="id" element="skills">
+            {/* <Scroll type="id" element="skills">
               <a
                 className="btn btn-light btn-xl js-scroll-trigger"
                 href="#skills"
               >
                 Get Started!
               </a>
-            </Scroll>
+            </Scroll> */}
           </div>
         </div>
       </div>

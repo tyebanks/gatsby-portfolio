@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Creative', // <title>
+  siteTitle: 'Ty Ebanks: Portfolio', // <title>
   manifestName: 'Creative',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',

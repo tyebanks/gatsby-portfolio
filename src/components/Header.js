@@ -41,7 +41,8 @@ export default class Header extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
+          <i className="fab fa-facebook"></i>
+             {/* <img src = "" alt="logo"/> */}
           </a>
 
           <button
