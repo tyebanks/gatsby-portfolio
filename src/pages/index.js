@@ -7,46 +7,19 @@ import config from '../../config';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ContactUs from '../components/ContactUs';
-import Gallery from '../components/Gallery';
+import Projects from '../components/Projects';
+import Project1 from '../assets/images/portfolio/fullsize/2.jpg';
+
 
 const img_set = [
   {
-    src: require('../assets/images/portfolio/fullsize/1.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/1.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
-  },
-  {
+    
     src: require('../assets/images/portfolio/fullsize/2.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/2.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
-  },
-  {
     src: require('../assets/images/portfolio/fullsize/3.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/3.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
-  },
-  {
-    src: require('../assets/images/portfolio/fullsize/4.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/4.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
-  },
-  {
-    src: require('../assets/images/portfolio/fullsize/5.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/5.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
-  },
-  {
-    src: require('../assets/images/portfolio/fullsize/6.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/6.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
-  },
-];
+  }];
+  
+  
+
 const IndexPage = () => (
   <Layout>
     <Header />
@@ -136,28 +109,18 @@ const IndexPage = () => (
       </div>
     </section>
 
-
-
-
+     {/* PROJECTS SECTION  */}
     <section className="page-section bg-dark text-white">
       <div className="container text-center">
-        <h2 className="mb-4">My Projects!</h2>
-        <Scroll type="id" element="skills">
-              <a
-                className="btn btn-primary btn-xl js-scroll-trigger"
-                href="#about"
-              >
-                Find Out More
-              </a>
-            </Scroll>
-        
+        <h2 className="mb-4">My Projects</h2> 
             <section id="projects">
-      <Gallery images={img_set} />
-    </section>
-        
-      
+                <Projects title="Web Design" src={Project1} description="Outlandish Cayman"/>
+                <Projects title="Web Dev" src={Project1} description="Hero Game"/>
+                <Projects title="Web Dev" src={Project1} description="News Site"/>
+            </section>      
       </div>
     </section>
+
 
     <section className="page-section bg-light" id="education">
       <div className="container">
@@ -166,37 +129,38 @@ const IndexPage = () => (
             <h2 className="text-black mt-0">Education</h2>
             <hr className="divider light my-4" />
             <p className="text-black-50 mb-4">
-            BSc Business Computing (Web Design)</p>
-            <p className="text-black-50 mb-4">University of Northampton</p>
-            <p className="text-black-50 mb-4">Northampton, U.K.</p>
-            <p className="text-black-50 mb-4">NN1 5PH</p>
+            BSc Business Computing (Web Design)<br></br>University of Northampton
+            <br></br>Northampton, U.K.  NN1-5PH</p>
             
             <p className="text-black-50 mb-4">Associate degree in Computer Science<br></br>
             University College Cayman Islands<br></br>George Town, C.I.
             KY1-1107 
             </p>
-            {/* <Scroll type="id" element="skills">
+          </div>
+        </div>
+      </div>
+    </section>
+    <ContactUs />
+    <Footer />
+  </Layout>
+);
+
+export default IndexPage;
+
+
+ /* <Scroll type="id" element="skills">
               <a
                 className="btn btn-light btn-xl js-scroll-trigger"
                 href="#skills"
               >
                 Get Started!
               </a>
-            </Scroll> */}
-          </div>
-        </div>
-      </div>
-    </section>
-
-   
-   
-
-  
-
-    <ContactUs />
-
-    <Footer />
-  </Layout>
-);
-
-export default IndexPage;
+            </Scroll> *
+            /* <Scroll type="id" element="skills">
+              <a
+                className="btn btn-primary btn-xl js-scroll-trigger"
+                href="#about"
+              >
+                Find Out More
+              </a>
+            </Scroll> */
