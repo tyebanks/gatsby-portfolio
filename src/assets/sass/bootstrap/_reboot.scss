@@ -178,6 +178,7 @@ sup { top: -.5em; }
 
 // Styling URL Links
 .links{
+  font-family: 'Segoe UI';
   color: $secondary;
   text-decoration: none;
   @include hover {

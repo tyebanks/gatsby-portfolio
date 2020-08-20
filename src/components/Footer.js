@@ -3,7 +3,7 @@ import config from '../../config';
 
 export default function Footer() {
   return (
-    <footer className="pb-4">
+    <footer className="pb-4 bg-dark">
       <div className="container">
         <div className="small text-center text-muted">
        
@@ -12,7 +12,7 @@ export default function Footer() {
             {config.socialLinks.map(social => {
               const { icon, url } = social;
               return (
-                <a key={url} href={url} className={`mx-2`}>
+                <a key={url} href={url} className={`mx-3`}>
                   <i className={`fab fa-3x mb-3 ${icon} icons`}></i>
                 </a>
               );
