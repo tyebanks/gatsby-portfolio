@@ -9,9 +9,13 @@ html {
 .text-white-75 {
   color: fade-out($white, .25);
 }
-#contact{
+.contact-container{
+  // padding-bottom: 4rem;
+  line-height: 2rem;
+  text-align: left;
   height: 65vh;
-  background-color: #4A494A;
+  border: 2px solid seagreen;
+  // background-color: #4A494A;
   text-align: left;
   color: #fff;
 }
@@ -19,10 +23,14 @@ html {
   color: #C0A4FE;
   font-size: 3rem;
 }
+#contactinfo>a{
+ padding-bottom: 1rem;
+//  line-height: 20px;
+}
 
 footer{
-  background-color: $footer;
-  // color: #4A494A;
+  background-color: #fff ;
+  // color: #4A494A; $footer
 }
 // Custom horizontal rules
 // hr.divider {
@@ -51,5 +59,6 @@ footer{
 
 // Page section padding
 .page-section {
-  padding: 8rem 0;
+  padding: 1rem 0 1rem;
+  border: 2px solid black;
 }
