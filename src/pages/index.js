@@ -117,20 +117,22 @@ const IndexPage = () => (
 
 
     <section className="page-section bg-light" id="education">
+    <div className="education-container">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-8 text-center">
-            <h2 className="text-black mt-0">Education</h2>
-            <hr className="divider light my-4" />
-            <p className="text-black-50 mb-4">
-            BSc Business Computing (Web Design)<br></br>University of Northampton
-            <br></br>Northampton, U.K.  NN1-5PH</p>
+          <div className="col-lg-8">
+            <h2 className="text-black mt-0 text-center">Education</h2>
+            {/* <hr className="divider light my-4" /> */}
+            <p className="text-black-50">
+            BSc Business Computing (Web Design)</p>
+            <p>University of Northampton</p>
+            <p>Northampton, U.K.  NN1-5PH</p>
             
-            <p className="text-black-50 mb-4">Associate degree in Computer Science<br></br>
-            University College Cayman Islands<br></br>George Town, C.I.
-            KY1-1107 
-            </p>
+            <p className="text-black-50 mb-4">Associate degree in Computer Science</p>
+            <p>University College Cayman Islands</p>
+            <p>George Town, C.I. KY1-1107</p>
           </div>
+        </div>
         </div>
       </div>
     </section>
