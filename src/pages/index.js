@@ -130,8 +130,8 @@ const IndexPage = () => (
               text3="Northampton, U.K."
             />
             </div>
-            <EduText subtitle="Associate Degree- Computer Science" 
-              text1="University College of Cayman Islands"
+            <EduText subtitle="AAS Degree- Computer Science" 
+              text1="University of the Cayman Islands"
               text2="Olympic Way"
               text3="George Town, C.I."
             />
