@@ -1,0 +1,26 @@
+#education{
+
+        @media (min-width: 400px) {
+            background-color: salmon;
+        }
+        @media only screen and (max-width: 991px) and (min-width: 768px) {
+             background-color: seagreen;
+        }
+    
+        @media (min-width: 992px) {
+            background-color: $purple;      
+        }
+
+       
+        .education-container{
+            padding-top: 3rem;
+            text-align: left;
+            height: 80vh; 
+            line-height: 0.5rem;
+        
+        }
+}
+
+
+
+

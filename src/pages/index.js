@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import config from '../../config';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
+import EduText from '../components/EduText';
 import ContactUs from '../components/ContactUs';
 import Projects from '../components/Projects';
 import Project1 from '../assets/images/project1.jpg';
@@ -118,21 +119,24 @@ const IndexPage = () => (
 
     <section className="page-section bg-light" id="education">
     <div className="education-container">
-      <div className="container">
-        <div className="row justify-content-center">
+      <div className="container vcentered">
+        <div className="text">
           <div className="col-lg-8">
-            <h2 className="text-black mt-0 text-center">Education</h2>
-            {/* <hr className="divider light my-4" /> */}
-            <p className="text-black-50">
-            BSc Business Computing (Web Design)</p>
-            <p>University of Northampton</p>
-            <p>Northampton, U.K.  NN1-5PH</p>
-            
-            <p className="text-black-50 mb-4">Associate degree in Computer Science</p>
-            <p>University College Cayman Islands</p>
-            <p>George Town, C.I. KY1-1107</p>
-          </div>
-        </div>
+            <h2 className="text-black mt-0 text-center pb-5">Education</h2>
+           <div className="mb-5">
+            <EduText subtitle="BSc Business Computing (Web Design)" 
+              text1="University of Northampton"
+              text2="Waterside Campus"
+              text3="Northampton, U.K."
+            />
+            </div>
+            <EduText subtitle="Associate Degree- Computer Science" 
+              text1="University College of Cayman Islands"
+              text2="Olympic Way"
+              text3="George Town, C.I."
+            />
+           </div>
+       </div>
         </div>
       </div>
     </section>
