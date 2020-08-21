@@ -2,17 +2,20 @@
     // height: 90vh;
     h2 {
         font-family:  "Segoe UI";
+        font-size: 38px;
     }
-    .title, .subtitle{
-        border: 3px darkblue dotted;
-        padding: 1em;
+    .container{
+        
+        border: 3px solid yellowgreen;
+        width: 95vw;
+        padding-bottom: 5px;
     }
-    .group1{
-        float: right;
+    .heading, .subheading{
+        border: 1px darkblue dotted;
+        padding: 0.50em;
     }
     .group1, .group2{
         display: inline-block;
-        // float: right;
         padding: 1em;
         border: 1px dashed darkcyan;
         width: 40%;
@@ -28,12 +31,7 @@
         line-height: 8px;
         font-size: 17px;
       }
-      .container{
-          border: 3px solid yellowgreen;
-        //   height: 100%;
-          width: 90vw;
-          padding-bottom: 5px;
-      }
+     
 
     @media only screen and (max-width: 991px) and (min-width: 768px) {
        h2{

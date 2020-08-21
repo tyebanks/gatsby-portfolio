@@ -48,13 +48,13 @@ const IndexPage = () => (
     <section className="page-section" id="skills">
       <div className="container">
         <div>
-           <h2 className="text-center mt-0 title">TECHNICAL SKILLS</h2>
+           <h2 className="text-center mt-0 heading">TECHNICAL SKILLS</h2>
         </div>
         <div> 
-           <h3 className="text-center subtitle">Web Programming & Other tools</h3>
+           <h3 className="text-center subheading">Web Programming & Other tools</h3>
         </div>
         
-        <div>
+        <div className="prop-container">
             <SkillsText text1="HTML5" text2="CSS3" text3="JavaScript" text4="PHP" text5="WordPress" text6="Joomla"
              text7="Atom" text8="VS Code" text9="Java/Eclipse" text10="GitHub" text11="Adobe PS" text12="Adobe Ai"
              text13="Figma" text14="inVision" text15="Discord" text16="Slack"  text17="Skype" 
