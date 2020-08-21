@@ -41,7 +41,7 @@ export default class Navigation extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
-          <i className="fab fa-facebook"></i>
+         
              {/* <img src = "" alt="logo"/> */}
           </a>
 
