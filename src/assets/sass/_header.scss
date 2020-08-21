@@ -1,34 +1,102 @@
-// Styling for Header
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - #{$navbar-height});
-  // replace the masthead.jpg image in the /img directory to change the image
-  // if the image name change, make sure to update the url path below!
-  
-  background: url(../images/triangles.png) no-repeat center center fixed, linear-gradient(0deg, #6723C6 0%, rgba(0, 239, 181, 0.87) 100%);
+#home {
+   height: 100vh;
+   background: url(../images/triangles.png) no-repeat center center fixed, linear-gradient(0deg, #6723C6 0%, rgba(0, 239, 181, 0.87) 100%);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: cover;
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  h1 {
-    font-size: 2.25rem;
-  }
-  @include media-breakpoint-up(lg) {
-    height: 100vh;
-    min-height: 40rem;
-    padding-top: $navbar-height;
-    padding-bottom: 0;
-    p {
-      font-size: 1.15rem;
-    }
-    h1 {
-      font-size: 3rem;
-    }
-  }
-  @include media-breakpoint-up(xl) {
-    h1 {
-      font-size: 3.5rem;
-    }
-  }
+   .circle{
+     border-radius: 100%;
+     width: 150px;
+     height: 150px;
+   }
+   .row{
+    //  Just checking this size
+    border: 1px dotted white;
+   }
+   .img-container{
+     border: 2px dotted darkblue; 
+     padding: 1em;
+     max-width: 200px;
+     margin-top: 4em;
+   }
+   .text{
+     margin-top: 20px;
+     border: 2px solid black;
+     padding-top: 1.5rem;
+     padding-bottom: 2.5rem;
+   }
+   .heading-text, .para-text{
+     border: 1px dotted rgb(247, 247, 247);
+   }
+   .button{
+     border: 2px dotted rgb(22, 0, 117);
+     padding: 20px 0 20px;
+   }
+   .top-icons{
+     border: 2px dotted red;
+     width: 100%;
+     margin-top: 2rem;
+     margin-bottom: 0;
+   }
+   i{
+     margin-top: 0;
+     color: $lightgreen;
+     font-size: 35px;
+   }
+   h1{
+     text-align: left;
+   }
+   p{
+     font-family: 'Montserrat';
+     font-weight: 300;
+     font-size: 18px;
+     text-align: left;
+     color: black;
+   }
+  //  .masthead{
+  //   padding-top: 10rem;
+  //   padding-bottom: calc(10rem - #{$navbar-height});
+  //  }
+   .container{
+     border: 2px solid greenyellow;
+     padding: 2rem;
+   }
+   .btn{
+     background-color: black;
+     padding: 1em;
+   }
+   .btn:hover{
+     color: $lilac;
+   }
+
+  @media only screen and (max-width: 991px) and (min-width: 768px) {}
+  @media (min-width: 992px) {}
+
+
+
 }
+
+
+// h1 {
+//   font-size: 2.25rem;
+// }
+// @include media-breakpoint-up(lg) {
+//   height: 100vh;
+//   min-height: 40rem;
+//   padding-top: $navbar-height;
+//   padding-bottom: 0;
+//   p {
+//     font-size: 1.15rem;
+//   }
+//   h1 {
+//     font-size: 3rem;
+//   }
+// }
+// @include media-breakpoint-up(xl) {
+//   h1 {
+//     font-size: 3.5rem;
+//   }
+// }
+// }

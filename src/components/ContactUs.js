@@ -1,6 +1,4 @@
 import React from 'react';
-import config from '../../config';
-
 
 export default function ContactUs() {
   return (
@@ -11,7 +9,7 @@ export default function ContactUs() {
           <div id="contactinfo" className="col-lg-8 text-center">
             <h3 className="mt-0 pb-5">Give me a shout.</h3>
             <h4>Email</h4>
-            <p className="pb-4"><a className="links" href={`mailto:${config.email}`}>ebankst07@gmail.com</a></p>
+            <p className="pb-4"><a className="links" href={`mailto:ebankst07@gmail.com`}>ebankst07@gmail.com</a></p>
             <h4>LinkedIn</h4>
             <p className="pb-4"><a className="links" href='https://www.linkedin.com/in/ty-ebanks'>https://www.linkedin.com/in/ty-ebanks</a></p>
             <h4>Twitter</h4>
