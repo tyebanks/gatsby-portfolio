@@ -119,22 +119,21 @@ const IndexPage = () => (
 
     <section className="page-section bg-light" id="education">
     <div className="education-container">
-      <div className="container vcentered">
+      <div className="container">
         <div className="text">
-          <div className="col-lg-8">
-            <h2 className="text-black mt-0 text-center pb-5">Education</h2>
-           <div className="mb-5">
-            <EduText subtitle="BSc Business Computing (Web Design)" 
-              text1="University of Northampton"
-              text2="Waterside Campus"
-              text3="Northampton, U.K."
-            />
-            </div>
+          <div className="col-lg-8 edutext ">
+            <h2 className="text-black mt-0 text-center pb-5">EDUCATION</h2>
+           <div className="mb-5 component-container">
+              <EduText subtitle="BSc Business Computing (Web Design)" 
+                text1="University of Northampton"
+                text2="Waterside Campus"
+                text3="Northampton, U.K."/>
+          
             <EduText subtitle="AAS Degree- Computer Science" 
               text1="University of the Cayman Islands"
               text2="Olympic Way"
-              text3="George Town, C.I."
-            />
+              text3="George Town, C.I."/>
+             </div>
            </div>
        </div>
         </div>
