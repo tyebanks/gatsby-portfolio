@@ -39,7 +39,7 @@ const IndexPage = () => (
     {/* PROJECTS SECTION  */}
     <section id="projects" className="page-section bg-light">
       <div className="container">
-      <div className="heading"><h2 className="mb-4 text-center">MY PROJECTS</h2></div>
+      <div className="heading"><h2 className="mb-4 pt-5 text-center">MY PROJECTS</h2></div>
             <div className="card-container">           
                 <Projects title="Web Design:" subtitle1="GatsbyJS" src={Project1} description="Outlandish Cayman"/>
                 <Projects title="Web Development Game:" subtitle1="JavaScript" src={Project2} description="Hero Game"/>

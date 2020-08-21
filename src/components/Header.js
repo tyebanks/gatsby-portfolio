@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <header id="home" className="masthead">
             <div className="container h-100">
-                <div className="row h-100 align-items-center justify-content-center text-center">
+                <div className="row h-100 justify-content-center">
                     <div className="img-container mb-0">
                          <img className="circle" src={MyImg} alt="ty ebanks"/>
                     </div>

@@ -13,26 +13,33 @@
    }
    .row{
     //  Just checking this size
+    width: 95vw;
     border: 1px dotted white;
    }
    .img-container{
      border: 2px dotted darkblue; 
      padding: 1em;
-     max-width: 200px;
-     margin-top: 4em;
+     max-width: 220px;
+     margin-top: 2em;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
    }
    .text{
      margin-top: 20px;
      border: 2px solid black;
-     padding-top: 1.5rem;
-     padding-bottom: 2.5rem;
+    //  padding-top: 1.5rem;
+     padding-bottom: .5rem;
    }
    .heading-text, .para-text{
      border: 1px dotted rgb(247, 247, 247);
    }
    .button{
+    display: flex;
+    justify-content: center;
      border: 2px dotted rgb(22, 0, 117);
      padding: 20px 0 20px;
+   
    }
    .top-icons{
      border: 2px dotted red;
@@ -50,7 +57,7 @@
    }
    p{
      font-family: 'Montserrat';
-     font-weight: 300;
+     font-weight: 400;
      font-size: 18px;
      text-align: left;
      color: black;
@@ -61,7 +68,7 @@
   //  }
    .container{
      border: 2px solid greenyellow;
-     padding: 2rem;
+     padding-top: 2em;
    }
    .btn{
      background-color: black;
