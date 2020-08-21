@@ -187,14 +187,14 @@ sup { top: -.5em; }
   }
 }
 
-//Styling for icons
+//Styling for icons in footer
 .icons {
-  color: $third;
+  color: fade-out($third, .25);
   text-decoration: none;
   background-color: transparent; // Remove the gray background on active links in IE 10.
 
   @include hover {
-    color: $white;
+    color: $third;
     text-decoration: none;
   }
 }
