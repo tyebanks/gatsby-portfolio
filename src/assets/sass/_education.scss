@@ -10,23 +10,19 @@
                 padding-top: 0.50em;
                 display: block;
                 margin-left: auto;
-                margin-right: auto;
-                // border: 2px solid black;                
+                margin-right: auto;                
             } 
         }
 
         @media only screen and (max-width: 991px) and (min-width: 768px) {
-             
+             h2{
+                 font-size: 35px;
+             }
              .card{
                  width: 450px;
              }
              .component-container{
-                 border: 2px solid seagreen;
-                 padding: 0 5% 0;
-                //  display: flex;
-                //  flex-direction: column;
-                //  align-content: center;
-               
+                   padding: 0 5% 0;              
              }
             //  .edutext{
             //  border: 2px solid seagreen;
@@ -41,25 +37,32 @@
                 font-size: 45px;
             }
             .component-container{
-                width: 80vw;
-                padding: 3em;
-                border: 2px solid red;
-                display: flex;
-                justify-content: space-evenly;
+                // width: 80vw;
+                padding: 0 3em 0;
+                // border: 2px solid red;
+                // display: flex;
+                // flex-direction: row;
+                // justify-content: space-evenly;
             }
-            .edutext{
+            .edutext, .component-container{
                 padding-top: 0.50em;
                 // display: flex;
                 // justify-content: center;
                 // flex-direction: column;
-                // display: block;
-                // margin-left: auto;
-                // margin-right: auto;
+                max-width: 90vw;
+            //    border: 2px solid salmon;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             } 
             .card{
                 padding: 2rem;
                 width: 400px;
-            }     
+            } 
+            .container{
+                // border: 2px solid rgba(80, 226, 105, 0.774);
+                max-width: 95vw;
+            }    
         }
 
        

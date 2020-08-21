@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import config from '../../config';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
+import SkillsText from '../components/SkillsText';
 import EduText from '../components/EduText';
 import ContactUs from '../components/ContactUs';
 import Projects from '../components/Projects';
@@ -46,39 +47,30 @@ const IndexPage = () => (
 
     <section className="page-section" id="skills">
       <div className="container">
-        <h2 className="text-center mt-0">TECHNICAL SKILLS</h2>
-        <hr className="divider my-4" />
-        <h3 className="h4 mb-2 text-center">Web Programming & Other tools</h3>
-        <div className="row">
+        <div className="my-4">
+           <h2 className="text-center pt-4 mt-0 title">TECHNICAL SKILLS</h2>
+        </div>
+        <div> 
+           <h3 className="h4 pt-5 pb-2 text-center subtitle">Web Programming & Other tools</h3>
+        </div>
         
-          <div className="col-lg-3 col-md-6 text-center">
-          
+        <div>
+            <SkillsText text1="HTML5" text2="CSS3" text3="JavaScript" text4="PHP" text5="WordPress" text6="Joomla"
+             text7="Atom" text8="VS Code" text9="Java/Eclipse" text10="GitHub" text11="Adobe PS" text12="Adobe Ai"
+             text13="Figma" text14="inVision" text15="Discord" text16="Slack"  text17="Skype" 
+             text18="GatsbyJS" text19="ReactJS" text20="OneDrive"/>
+        </div>
+            {/* <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
-              {/* <i className="fas fa-4x fa-gem text-primary mb-4"></i> */}
-              {/* <h3 className="h4 mb-2">Web Programming & Other tools</h3> */}
-              <p className="text-muted mb-0">
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 text-center">
-            <div className="mt-5">
-              {/* <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i> */}
+              <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+              <i className="fas fa-4x fa-globe text-primary mb-4"></i>
               <p className="text-muted mb-0">HTML5 </p>
               <p className="text-muted mb-0">CSS3</p>
-              <p className="text-muted mb-0">JavaScript</p>
-              <p className="text-muted mb-0">PHP</p>
-              <p className="text-muted mb-0">Joomla</p>
-                      <p className="text-muted mb-0">WordPress</p>
-                      <p className="text-muted mb-0">Atom</p>
-                      <p className="text-muted mb-0">VS Code </p>
-                      <p className="text-muted mb-0">Java/Eclipse</p>
-                      <p className="text-muted mb-0">GitHub</p>
-            
-            </div>
+          
           </div>
-          <div className="col-lg-3 col-md-6 text-center">
+          {/* <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
-              {/* <i className="fas fa-4x fa-globe text-primary mb-4"></i> */}
+           
               <p className="text-muted mb-0">Adobe Illustrator </p>
               <p className="text-muted mb-0">Adobe Photoshop</p>
               <p className="text-muted mb-0">Figma</p>
@@ -90,23 +82,16 @@ const IndexPage = () => (
                       <p className="text-muted mb-0">ReactJS</p>
                       <p className="text-muted mb-0">OneDrive</p>
             </div>
+          </div> */}
+         
           </div>
-          <div className="col-lg-3 col-md-6 text-center">
-            <div className="mt-5">
-              
-          
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
      {/* PROJECTS SECTION  */}
     <section id="projects" className="page-section bg-light">
       <div className="container">
       <div className="heading"><h2 className="mb-4 text-center">MY PROJECTS</h2></div>
-            <div className="card-container">
-           
+            <div className="card-container">           
                 <Projects title="Web Design:" subtitle1="GatsbyJS" src={Project1} description="Outlandish Cayman"/>
                 <Projects title="Web Development Game:" subtitle1="JavaScript" src={Project2} description="Hero Game"/>
                 <Projects title="Web Development News:" subtitle1="HTML+CSS" src={Project3} description="News Site"/>
@@ -118,7 +103,7 @@ const IndexPage = () => (
     <section className="page-section bg-light" id="education">
     <div className="education-container">
       <div className="container">
-        <div className="text">
+        {/* <div className="text"> */}
           <div className="col-lg-8 edutext ">
             <h2 className="text-black mt-0 text-center pb-5">EDUCATION</h2>
            <div className="mb-5 component-container">
@@ -133,7 +118,7 @@ const IndexPage = () => (
               text3="George Town, C.I."/>
              </div>
            </div>
-       </div>
+       {/* </div> */}
         </div>
       </div>
     </section>
