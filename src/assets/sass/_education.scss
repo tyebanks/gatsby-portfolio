@@ -3,8 +3,7 @@
         @media (min-width: 400px) {
             height: 100vh;
             .card{
-                padding: 2rem;
-              
+                padding: 2rem;    
             }
             .edutext, .card {
                 padding-top: 0.50em;
@@ -16,7 +15,7 @@
 
         @media only screen and (max-width: 991px) and (min-width: 768px) {
              h2{
-                 font-size: 35px;
+                 font-size: 40px;
              }
              .card{
                  width: 450px;

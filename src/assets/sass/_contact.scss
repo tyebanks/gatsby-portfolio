@@ -1,0 +1,24 @@
+#contact{
+    .contact-container{
+        padding-top: 2rem;
+        line-height: 2rem;
+        text-align: left;
+        height: 70vh;
+        // border: 2px solid seagreen;
+        text-align: left;
+        color: #fff;
+      }
+      #contactinfo>h3{
+        color: #C0A4FE;
+        font-size: 2.5rem;
+        font-family: 'Montserrat';
+        font-weight: 400;
+      }
+      #contactinfo>a{
+       padding-bottom: 1rem; 
+      }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px) {}
+    @media (min-width: 992px) {}
+}

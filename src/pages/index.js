@@ -44,50 +44,21 @@ const IndexPage = () => (
         </div>
       </div>
     </header>
-
+    {/* TECHNICAL SKILLS SECTION  */}
     <section className="page-section" id="skills">
       <div className="container">
-        <div>
-           <h2 className="text-center mt-0 heading">TECHNICAL SKILLS</h2>
-        </div>
-        <div> 
-           <h3 className="text-center subheading">Web Programming & Other tools</h3>
-        </div>
-        
+        <div> <h2 className="text-center mt-0 heading">TECHNICAL SKILLS</h2> </div>
+        <div> <h3 className="text-center subheading">Web Programming & Other tools</h3> </div>
         <div className="prop-container">
             <SkillsText text1="HTML5" text2="CSS3" text3="JavaScript" text4="PHP" text5="WordPress" text6="Joomla"
              text7="Atom" text8="VS Code" text9="Java/Eclipse" text10="GitHub" text11="Adobe PS" text12="Adobe Ai"
              text13="Figma" text14="inVision" text15="Discord" text16="Slack"  text17="Skype" 
              text18="GatsbyJS" text19="ReactJS" text20="OneDrive"/>
         </div>
-            {/* <div className="col-lg-3 col-md-6 text-center">
-            <div className="mt-5">
-              <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-              <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-              <p className="text-muted mb-0">HTML5 </p>
-              <p className="text-muted mb-0">CSS3</p>
-          
-          </div>
-          {/* <div className="col-lg-3 col-md-6 text-center">
-            <div className="mt-5">
-           
-              <p className="text-muted mb-0">Adobe Illustrator </p>
-              <p className="text-muted mb-0">Adobe Photoshop</p>
-              <p className="text-muted mb-0">Figma</p>
-              <p className="text-muted mb-0">inVision</p>
-              <p className="text-muted mb-0">Discord</p>
-                      <p className="text-muted mb-0">Slack</p>
-                      <p className="text-muted mb-0">Skype</p>
-                      <p className="text-muted mb-0">GatsbyJS </p>
-                      <p className="text-muted mb-0">ReactJS</p>
-                      <p className="text-muted mb-0">OneDrive</p>
-            </div>
-          </div> */}
-         
-          </div>
+      </div>
     </section>
 
-     {/* PROJECTS SECTION  */}
+    {/* PROJECTS SECTION  */}
     <section id="projects" className="page-section bg-light">
       <div className="container">
       <div className="heading"><h2 className="mb-4 text-center">MY PROJECTS</h2></div>
@@ -99,26 +70,24 @@ const IndexPage = () => (
       </div>
     </section>
 
-
+    {/* EDUCATION SECTION  */}
     <section className="page-section bg-light" id="education">
     <div className="education-container">
       <div className="container">
-        {/* <div className="text"> */}
           <div className="col-lg-8 edutext ">
             <h2 className="text-black mt-0 text-center pb-5">EDUCATION</h2>
-           <div className="mb-5 component-container">
+            <div className="mb-5 component-container">
+             
               <EduText subtitle="BSc Business Computing (Web Design)" 
                 text1="University of Northampton"
                 text2="Waterside Campus"
                 text3="Northampton, U.K."/>
-          
-            <EduText subtitle="AAS Degree- Computer Science" 
-              text1="University of the Cayman Islands"
-              text2="Olympic Way"
-              text3="George Town, C.I."/>
+              <EduText subtitle="AAS Degree- Computer Science" 
+                text1="University of the Cayman Islands"
+                text2="Olympic Way"
+                text3="George Town, C.I."/>
              </div>
            </div>
-       {/* </div> */}
         </div>
       </div>
     </section>
