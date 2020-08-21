@@ -46,7 +46,7 @@ const IndexPage = () => (
 
     <section className="page-section" id="skills">
       <div className="container">
-        <h2 className="text-center mt-0">Technical Skills</h2>
+        <h2 className="text-center mt-0">TECHNICAL SKILLS</h2>
         <hr className="divider my-4" />
         <h3 className="h4 mb-2 text-center">Web Programming & Other tools</h3>
         <div className="row">
@@ -93,10 +93,8 @@ const IndexPage = () => (
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
-              <i className=" mb-4"></i>
-              <h3 className="h4 mb-2"></h3>
-              <p className="text-muted mb-0">
-              </p>
+              
+          
             </div>
           </div>
         </div>

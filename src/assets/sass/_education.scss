@@ -1,14 +1,17 @@
 #education{
 
         @media (min-width: 400px) {
+            height: 100vh;
             .card{
                 padding: 2rem;
+              
             }
-            .edutext{
+            .edutext, .card {
                 padding-top: 0.50em;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+                // border: 2px solid black;                
             } 
         }
 
