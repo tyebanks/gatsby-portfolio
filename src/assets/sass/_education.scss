@@ -1,5 +1,14 @@
 #education{
 
+    .education-container{
+        padding-top: 3rem;
+        text-align: left;
+        // height: 80vh; 
+        line-height: 0.5rem;
+    
+    }
+
+
         @media (min-width: 400px) {
             // height: 100vh;
             .card{
@@ -61,13 +70,7 @@
         }
 
        
-        .education-container{
-            padding-top: 3rem;
-            text-align: left;
-            // height: 80vh; 
-            line-height: 0.5rem;
-        
-        }
+      
 }
 
 

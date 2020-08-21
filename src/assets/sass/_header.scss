@@ -13,11 +13,11 @@
    }
    .row{
     //  Just checking this size
-    width: 95vw;
-    border: 1px dotted white;
+    // width: 95vw;
+    // border: 1px dotted white;
    }
    .img-container{
-     border: 2px dotted darkblue; 
+    //  border: 2px dotted darkblue; 
      padding: 1em;
      max-width: 220px;
      margin-top: 2em;
@@ -27,12 +27,12 @@
    }
    .text{
      margin-top: 20px;
-     border: 2px solid black;
-    //  padding-top: 1.5rem;
+    //  border: 2px solid black;
+     padding: 0 1.5rem 0;
      padding-bottom: .5rem;
    }
    .heading-text, .para-text{
-     border: 1px dotted rgb(247, 247, 247);
+    //  border: 1px dotted rgb(247, 247, 247);
    }
    .button{
     display: flex;
@@ -42,7 +42,7 @@
    
    }
    .top-icons{
-     border: 2px dotted red;
+    //  border: 2px dotted red;
      width: 100%;
      margin-top: 2rem;
      margin-bottom: 0;
