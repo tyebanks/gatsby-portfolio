@@ -10,6 +10,14 @@
     margin-top: 3rem;
     margin-bottom: 1rem;
   }
+  .btn{
+    background-color: black;
+    padding: 1em;
+  }
+  .btn:hover{
+    color: $lilac;
+  }
+  
    i{
     margin-top: 0;
     color: fade-out($lightgreen, .25);
@@ -73,13 +81,7 @@
      max-width: 90vw;
      padding-top: 2em;
    }
-   .btn{
-     background-color: black;
-     padding: 1em;
-   }
-   .btn:hover{
-     color: $lilac;
-   }
+   
   }
   @media only screen and (max-width: 991px) and (min-width: 768px) {
       
