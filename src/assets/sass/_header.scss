@@ -1,21 +1,19 @@
 #home {
-   
+   width: 100vw;
    background: url(../images/triangles.png) no-repeat center center fixed, linear-gradient(0deg, #6723C6 0%, rgba(0, 239, 181, 0.87) 100%);
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: scroll;
    background-size: cover;
+ 
 
+   @media (min-width: 400px) {
    .circle{
      border-radius: 100%;
      width: 150px;
      height: 150px;
    }
-   .row{
-    //  Just checking this size
-    // width: 95vw;
-    // border: 1px dotted white;
-   }
+   
    .img-container{
     //  border: 2px dotted darkblue; 
      padding: 1em;
@@ -27,17 +25,15 @@
    }
    .text{
      margin-top: 20px;
-    //  border: 2px solid black;
+     border: 2px solid black;
      padding: 0 1.5rem 0;
      padding-bottom: .5rem;
    }
-   .heading-text, .para-text{
-    //  border: 1px dotted rgb(247, 247, 247);
-   }
+  
    .button{
     display: flex;
     justify-content: center;
-     border: 2px dotted rgb(22, 0, 117);
+    //  border: 2px dotted rgb(22, 0, 117);
      padding: 20px 0 20px;
    
    }
@@ -62,11 +58,9 @@
      text-align: left;
      color: black;
    }
-  //  .masthead{
-  //   padding-top: 10rem;
-  //   padding-bottom: calc(10rem - #{$navbar-height});
-  //  }
+ 
    .container{
+     max-width: 90vw;
      border: 2px solid greenyellow;
      padding-top: 2em;
    }
@@ -77,33 +71,43 @@
    .btn:hover{
      color: $lilac;
    }
+  }
+  @media only screen and (max-width: 991px) and (min-width: 768px) {
+     .heading-text, .para-text {
+        padding: 0 2rem 0;
+        border: 1px dotted rgb(247, 247, 247);
+     }
+     h1, p{
+       text-align: center;
+     }
+  }
+  @media (min-width: 992px) {
+    height: 100vw;
+    h1, p{
+      text-align: center;
+    }
+    .img-container{
+      margin-top: 5rem;
+    }
+    .heading-text{
+      margin-bottom: 1rem;
+    }
+    .text{
+      margin: 0 25% 0;
+      margin-top: 20px;
+      border: 2px solid yellowgreen;
+      padding: 0 1rem 0;
+      padding-bottom: .5rem;
+    }
+    .top-icons{
+       border: 2px dotted red;
+       width: 100%;
+       margin-top: 2rem;
+       margin-bottom: 0;
+     }
 
-  @media only screen and (max-width: 991px) and (min-width: 768px) {}
-  @media (min-width: 992px) {}
+  }
 
 
 
 }
-
-
-// h1 {
-//   font-size: 2.25rem;
-// }
-// @include media-breakpoint-up(lg) {
-//   height: 100vh;
-//   min-height: 40rem;
-//   padding-top: $navbar-height;
-//   padding-bottom: 0;
-//   p {
-//     font-size: 1.15rem;
-//   }
-//   h1 {
-//     font-size: 3rem;
-//   }
-// }
-// @include media-breakpoint-up(xl) {
-//   h1 {
-//     font-size: 3.5rem;
-//   }
-// }
-// }
