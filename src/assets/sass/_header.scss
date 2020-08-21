@@ -1,4 +1,4 @@
-// Styling for the masthead
+// Styling for Header
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - #{$navbar-height});
@@ -6,13 +6,7 @@ header.masthead {
   // if the image name change, make sure to update the url path below!
   
   background: url(../images/triangles.png) no-repeat center center fixed, linear-gradient(0deg, #6723C6 0%, rgba(0, 239, 181, 0.87) 100%);
-  
-  // background: linear-gradient(
-  //     to bottom,
-  //     #{fade-out($brown, 0.2)} 0%,
-  //     #{fade-out($brown, 0.2)} 100%
-  //   ),
-  //   url('../images/bg-masthead.jpg');
+
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

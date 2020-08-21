@@ -1,49 +1,27 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
 // import Scroll from '../components/Scroll';
+// import config from '../../config';
 
-import config from '../../config';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout';
 import Navigation from '../components/Navigation';
+import Header from '../components/Header';
 import SkillsText from '../components/SkillsText';
-import EduText from '../components/EduText';
-import ContactUs from '../components/ContactUs';
 import Projects from '../components/Projects';
 import Project1 from '../assets/images/project1.jpg';
 import Project2 from '../assets/images/project2.jpg';
 import Project3 from '../assets/images/project3.jpg';
-
+import EduText from '../components/EduText';
+import ContactUs from '../components/ContactUs';
+import Footer from '../components/Footer';
 
 const IndexPage = () => (
   <Layout>
     <Navigation />
+ 
+   {/* LANDING SECTION */}
+    <Header/>
 
-    <header id="page-top" className="masthead">
-      <div className="container h-100">
-        <div className="row h-100 align-items-center justify-content-center text-center">
-          <div className="col-lg-10 align-self-end">
-            <h1 className="text-uppercase text-white font-weight-bold">
-              {config.heading}
-            </h1>
-            <hr className="divider my-4" />
-          </div>
-          <div className="col-lg-8 align-self-baseline">
-            <p className="text-white-75 font-weight-light mb-5">
-              {config.subHeading}
-            </p>
-            <a
-                className="btn btn-dark btn-xl"
-                href="https://tyebanks.github.io/cv.pdf"
-                                                      >
-          Download CV
-        </a>
-
-
-          </div>
-        </div>
-      </div>
-    </header>
     {/* TECHNICAL SKILLS SECTION  */}
     <section className="page-section" id="skills">
       <div className="container">
@@ -77,20 +55,16 @@ const IndexPage = () => (
           <div className="col-lg-8 edutext ">
             <h2 className="text-black mt-0 text-center pb-5">EDUCATION</h2>
             <div className="mb-5 component-container">
-             
-              <EduText subtitle="BSc Business Computing (Web Design)" 
-                text1="University of Northampton"
-                text2="Waterside Campus"
-                text3="Northampton, U.K."/>
-              <EduText subtitle="AAS Degree- Computer Science" 
-                text1="University of the Cayman Islands"
-                text2="Olympic Way"
-                text3="George Town, C.I."/>
+              <EduText subtitle="BSc Business Computing (Web Design)" text1="University of Northampton"
+                text2="Waterside Campus" text3="Northampton, U.K."/>
+              <EduText subtitle="AAS Degree- Computer Science" text1="University of the Cayman Islands"
+                text2="Olympic Way" text3="George Town, C.I."/>
              </div>
            </div>
         </div>
       </div>
     </section>
+    {/* CONTACT SECTION */}
     <ContactUs />
     <Footer />
   </Layout>
