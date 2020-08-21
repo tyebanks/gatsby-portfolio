@@ -5,6 +5,19 @@
    background-repeat: no-repeat;
    background-attachment: scroll;
    background-size: cover;
+
+   .top-icons{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+   i{
+    margin-top: 0;
+    color: fade-out($lightgreen, .25);
+    font-size: 35px;
+  }
+  i:hover{
+   color: $lightgreen;
+  }
    .circle{
     border-radius: 100%;
     width: 150px;
@@ -44,14 +57,7 @@
      margin-top: 1rem;
      margin-bottom: 0;
    }
-   i{
-     margin-top: 0;
-     color: fade-out($lightgreen, .25);
-     font-size: 35px;
-   }
-   i:hover{
-    color: $lightgreen;
-   }
+  
    h1{
      text-align: left;
    }
@@ -97,13 +103,9 @@
      }
      
      p{
-      
        line-height: 30px;
      }
-     .top-icons{
-       margin-top: 3rem;
-       margin-bottom: 1rem;
-     }
+   
   }
   @media (min-width: 992px) {
     height: 99vh;
