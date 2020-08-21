@@ -47,11 +47,11 @@ const IndexPage = () => (
 
     <section className="page-section" id="skills">
       <div className="container">
-        <div className="my-4">
-           <h2 className="text-center pt-4 mt-0 title">TECHNICAL SKILLS</h2>
+        <div>
+           <h2 className="text-center mt-0 title">TECHNICAL SKILLS</h2>
         </div>
         <div> 
-           <h3 className="h4 pt-5 pb-2 text-center subtitle">Web Programming & Other tools</h3>
+           <h3 className="text-center subtitle">Web Programming & Other tools</h3>
         </div>
         
         <div>
