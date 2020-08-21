@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import Scroll from '../components/Scroll';
-// import config from '../../config';
 
 import Layout from '../components/Layout';
 import Navigation from '../components/Navigation';
@@ -71,21 +69,3 @@ const IndexPage = () => (
 );
 
 export default IndexPage;
-
-
- /* <Scroll type="id" element="skills">
-              <a
-                className="btn btn-light btn-xl js-scroll-trigger"
-                href="#skills"
-              >
-                Get Started!
-              </a>
-            </Scroll> *
-            /* <Scroll type="id" element="skills">
-              <a
-                className="btn btn-primary btn-xl js-scroll-trigger"
-                href="#about"
-              >
-                Find Out More
-              </a>
-            </Scroll> */

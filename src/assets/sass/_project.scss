@@ -1,7 +1,6 @@
 // Styling for the projects section
 #projects {
-  // border: 1px solid $gray-600;
-  h2{
+   h2{
     font-family: "Segoe UI";
   }
   .project-card {
@@ -19,9 +18,7 @@
     p {
       font-size: 20px;
     }
-    // h2 {
-    //    font-size: 38px;
-    // }
+   
     .card-container{   
         padding: 0 8% 0
     }

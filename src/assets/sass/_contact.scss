@@ -3,8 +3,6 @@
         padding-top: 2rem;
         line-height: 2rem;
         text-align: left;
-        // height: 70vh;
-        // border: 2px solid seagreen;
         text-align: left;
         color: #fff;
       }
@@ -17,12 +15,7 @@
       #contactinfo>a{
        padding-bottom: 1rem; 
       }
-      @media (orientation: landscape) {
-        // height: 100vh;
-        
-
-      }
-
+     
     @media only screen and (max-width: 991px) and (min-width: 768px) {}
     @media (min-width: 992px) {}
 }

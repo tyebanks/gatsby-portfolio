@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
-// import config from '../../config';
+import MyLogo from '../assets/images/logo.png';
 export default class Navigation extends Component {
   constructor(props) {
     super(props);
@@ -40,9 +40,8 @@ export default class Navigation extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
-         
-             {/* <img src = "" alt="logo"/> */}
+          <a className="navbar-brand" href="#home">
+             {/* <img src = {MyLogo} alt="logo" width="60px"/> */}
           </a>
 
           <button

@@ -3,14 +3,13 @@
     .education-container{
         padding-top: 3rem;
         text-align: left;
-        // height: 80vh; 
         line-height: 0.5rem;
     
     }
 
 
         @media (min-width: 400px) {
-            // height: 100vh;
+           
             .card{
                 padding: 2rem;    
             }
@@ -41,20 +40,11 @@
                 font-size: 45px;
             }
             .component-container{
-                // width: 80vw;
                 padding: 0 3em 0;
-                // border: 2px solid red;
-                // display: flex;
-                // flex-direction: row;
-                // justify-content: space-evenly;
             }
             .edutext, .component-container{
                 padding-top: 0.50em;
-                // display: flex;
-                // justify-content: center;
-                // flex-direction: column;
                 max-width: 90vw;
-            //    border: 2px solid salmon;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
@@ -64,7 +54,7 @@
                 width: 400px;
             } 
             .container{
-                // border: 2px solid rgba(80, 226, 105, 0.774);
+
                 max-width: 95vw;
             }    
         }
